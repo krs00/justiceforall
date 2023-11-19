@@ -1,17 +1,17 @@
-import * as React from 'react'
-import { Link } from 'gatsby'
-import './PageHeader.css'; // Import the stylesheet
+// import * as React from "react";
+import { Link } from "gatsby";
+import React, { useState, useEffect } from "react";
+import "./PageHeader.css"; // Import the stylesheet
 
-const PageHeader = ({ }) => {
+const PageHeader = ({}) => {
+
   return (
-  <>
-    <header className='mobile-header'>
-      <nav>
+    <>
+      <header className='mobile-header'>
+        <nav> </nav>
+      </header>
+    </>
+  );
+};
 
-      </nav>
-    </header>
-  </>
-  )
-}
-
-export default PageHeader
+export default PageHeader;

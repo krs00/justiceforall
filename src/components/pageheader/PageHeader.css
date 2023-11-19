@@ -1,5 +1,7 @@
 .mobile-header {
-  min-height: 10vh;
-  background-color: #ffffff; /* Set your header background color */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Set your shadow properties */
+  min-height: 9vh;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: opacity 0.3s ease-in-out;
+  opacity: 1;
 }
